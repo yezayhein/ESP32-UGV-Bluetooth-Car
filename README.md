@@ -1,5 +1,5 @@
-# ESP32-UGV-Bluetooth-Car
-ESP32 Bluetooth-controlled car using the Dabble app’s GamePad module. Control forward, reverse, left, and right movements via smartphone Bluetooth. Features PWM speed control for smooth motor operation. Ideal for robotics and IoT beginners.
+ESP32-based Bluetooth-controlled 4WD robot using Dabble app
+
 # 🚙 ESP32 Bluetooth Controlled UGV
 
 This project is a **4-wheel unmanned ground vehicle (UGV)** controlled via **Bluetooth** using the [Dabble app](https://thestempedia.com/product/dabble/).  
