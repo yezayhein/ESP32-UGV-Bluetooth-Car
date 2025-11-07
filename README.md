@@ -36,10 +36,18 @@ It runs on **ESP32** and an **L298N motor driver**.
 | 25 | ENB | Left PWM |
 | 26 | IN3 | Left direction 1 |
 | 27 | IN4 | Left direction 2 |
-
 > ⚠️ Note: GPIO12 is a boot-sensitive pin.  
 > If ESP32 fails to start, change it to GPIO13.
+---
 
+## 🔌 Power Supply
+| From                  | To                                                 |
+|-----------------------|----------------------------------------------------|
+| Battery + (12V)       | L298N 12V                                          |
+| Battery –             | L298N GND                                          |
+| L298N GND             | ESP32 GND                                          |
+| ESP32 powered via USB | (or use a separate 5V supply to ESP32 5V pin)      |
+| L298N +5V | Optional: to ESP32 5V (only if same 5V source) — never to 3.3V |
 ---
 
 ## 📱 Dabble App Setup
